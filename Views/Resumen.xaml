@@ -4,6 +4,24 @@
              x:Class="mvaldiviesoExamen.Views.Resumen"
              Title="Resumen">
     <VerticalStackLayout Padding="20" Spacing="20">
-       
+        <Label Text="Resumen" TextColor="red"/>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
