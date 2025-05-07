@@ -12,7 +12,7 @@ public partial class Registro : ContentPage
 
     private void btnRegistrar_Clicked(object sender, EventArgs e)
     {
-        decimal montoinicial = decimal.Parse(txtmontoinicial.Text);
+        decimal montoinicial = decimal.Parse(txtmonto.Text);
     }
 
     private void btnResumen_Clicked(object sender, EventArgs e)
