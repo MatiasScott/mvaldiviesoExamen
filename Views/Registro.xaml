@@ -46,10 +46,10 @@
             </Picker>
 
             <Label Text="Monto Inicial" Grid.Row="3" Grid.Column="0"/>
-            <Entry Grid.Row="3" Grid.Column="1" x:Name="txtmonto"/>
+            <Entry Grid.Row="3" Grid.Column="1" x:Name="txtmonto" Keyboard="Numeric"/>
 
             <Label Text="Pago Mensual" Grid.Row="5" Grid.Column="0"/>
-            <Entry Grid.Row="5" Grid.Column="1" x:Name="txtPagoMensual" IsReadOnly="True"/>
+            <Entry Grid.Row="5" Grid.Column="1" x:Name="txtPagoMensual" IsReadOnly="True" Keyboard="Numeric"/>
         </Grid>
 
         <Button Text="Registrar" x:Name="btnRegistrar" Clicked="btnRegistrar_Clicked"/>
